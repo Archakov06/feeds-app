@@ -1,0 +1,36 @@
+@import '~semantic-ui-css/semantic.min.css';
+
+html,
+body,
+.wrapper,
+.container,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 60% !important;
+}
+
+.posts {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ui.inline.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.posts .meta {
+  cursor: pointer;
+}
